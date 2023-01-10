@@ -5,7 +5,7 @@
   <base-container v-for="(row, rowIndex) in board">
     <box v-for="(cell, cellIndex) in row" v-on:click="handleMove(rowIndex, cellIndex)">
       <Item>
-        {{ cell }}
+        {{ cell }}a
       </Item>
     </box>
   </base-container>
